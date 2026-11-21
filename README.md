@@ -5,11 +5,11 @@
 <h1 align="center">Karaoke Pad</h1>
 
 <p align="center">
-An open-source <strong>ESP32 Bluetooth remote</strong> for <a href="https://jcvupdates.duckdns.org/app/kar/">JCV Karaoke Pro</a>:
+An open-source <strong>ESP32 Bluetooth remote</strong> for <a href="https://www.jcvsite.com/app/kar/">JCV Karaoke Pro</a>:
 key in song numbers, OK / Back, Next, Stop, melody, mic, volume and tempo — no Wi-Fi needed.
 </p>
 
-<p align="center"><a href="https://github.com/jcvsite/Karaoke_ESP32_Controller">github.com/jcvsite/Karaoke_ESP32_Controller</a> · <a href="https://jcvupdates.duckdns.org/app/kar/esp32.html">build guide</a></p>
+<p align="center"><a href="https://github.com/jcvsite/Karaoke_ESP32_Controller">github.com/jcvsite/Karaoke_ESP32_Controller</a> · <a href="https://www.jcvsite.com/app/kar/esp32.html">build guide</a></p>
 
 ---
 
@@ -102,7 +102,7 @@ p026693    play song 026693 now     ?       help, status
 | Session | `6b617261-6f6b-11ef-9b5e-0242ac120003` | Host writes the pad's status (`pendingController`, `ok`, `error`) |
 | Control | `6b617261-6f6b-11ef-9b5e-0242ac120004` | notify: one JSON per press, e.g. `{"action":"digit","digit":"5"}` |
 
-Full reference: [Room API — Bluetooth pads](https://jcvupdates.duckdns.org/app/kar/api.html#bluetooth).
+Full reference: [Room API — Bluetooth pads](https://www.jcvsite.com/app/kar/api.html#bluetooth).
 
 ## License
 
